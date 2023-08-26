@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.boxcontainer{
+    padding: 1rem;
+    background-color:yellow;
+    display: flex;
+}
+
+.box{
+    background-color: blue;
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+
+}
+    
+#row {
+flex-direction: row;
+}
+
+#coloumn{
+    flex-direction: column;
+}
+
+#rowreverse{
+flex-direction: row-reverse;
+}
+
+#coloumnreverse{
+    flex-direction: column-reverse;
+}
+
+/*for rows
+/* justify content space around*/
+#boxes1{
+justify-content: space-around;
+}
+
+#boxes2{
+justify-content: space-evenly;
+}
+#boxes3{
+justify-content: space-between;
+}
+
+#boxes0{
+    justify-content: center;
+}
+
+/*coloumn*/
+#boxes4{
+    height: 80vh;
+flex-direction: column;
+justify-content: space-around;
+
+}
+#boxes5{
+height: 80vh;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+#boxes6{
+    height: 80vh;
+flex-direction: column;
+justify-content: space-between;
+}
+
+/*align item with direc*/
+#boxes7{
+    height: 80vh;
+    align-items: flex-start
+
+
+}
+
+#boxes8{
+    height: 80vh;
+    align-items: center;
+    
+}
+
+#boxes9 {
+    height: 80vh;
+    align-items: flex-end;
+}
+
+#boxes10 {
+    height: 80vh;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#boxes11 {
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#boxes12 {
+    height: 80vh;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* for oreder prop(flex items*/
+#box1 {
+  order: 2;
+}
+#box2 {
+    order: 3;
+}
+#box3 {
+    order: 1;
+}
+
